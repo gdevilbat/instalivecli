@@ -2,7 +2,7 @@ import setuptools
 
 project_homepage = "https://github.com/RaihanStark/instalivecli"
 
-with open("README.md", "r", encoding="utf8") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 with open("requirements.txt") as f:
